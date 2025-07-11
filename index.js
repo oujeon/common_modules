@@ -1,3 +1,5 @@
-export function sayHello(name) {
-  return `Hello, ${name}!`;
-}
+"use strict";
+
+import { sample } from "./sample";
+
+export { sample };

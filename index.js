@@ -15,6 +15,8 @@ import {
   today_ymdhms,
   today_ymdhmsms,
 } from "./fn_date";
+import { plus, minus, multiply, divide } from "./fn_compute";
+import { objectToParams } from "./fn_axios";
 
 export {
   sample,
@@ -30,4 +32,9 @@ export {
   today_ymd,
   today_ymdhms,
   today_ymdhmsms,
+  plus,
+  minus,
+  multiply,
+  divide,
+  objectToParams,
 };

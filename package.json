@@ -1,6 +1,9 @@
 {
   "name": "common_modules",
-  "version": "1.0.0", 
+  "version": "1.0.0",
   "main": "index.js",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.10.0"
+  }
 }
